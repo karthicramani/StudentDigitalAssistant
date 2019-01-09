@@ -1,0 +1,31 @@
+{
+  "cognito": {
+    "poolId": "us-east-1:a3a15e31-bb89-4389-a826-f906f2287c97"
+  },
+  "lex": {
+    "botName": "CSAssistant",
+    "initialText": "Hi",
+    "initialSpeechInstruction": "",
+    "reInitSessionAttributesOnRestart": false
+  },
+  "ui": {
+    "parentOrigin": "",
+    "toolbarTitle": "Student/Applicant Assistant",
+    "toolbarLogo": "",
+    "enableLogin": false,
+    "AllowSuperDangerousHTMLInMessage": false,
+    "shouldDisplayResponseCardTitle": true,
+    "pushInitialTextOnRestart": false
+  },
+  "polly": {
+    "voiceId": ""
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
